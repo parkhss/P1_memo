@@ -1,0 +1,22 @@
+뷰(vue) + 노드(node) 환경세팅법
+
+프론트
+1.              npm install -g @vue/cli 입력
+2. 뷰 프로젝트 :  vue create frontend   (frontend는 파일이름)
+(오류시 vue.cmd create frontend)
+선택 사항중에 -> "vue 3 선택"
+
+3. cd frontend 후 npm run serve : 서버실행
+
+4. sass 설치 : node sass
+
+
+
+백엔드
+1. 폴더 backend로 생성후
+2. backend 폴더에서 npm init
+3. backend 폴더에서 index.js 파일생성
+4. (express 설치하기) npm install express
+
+프론트
+1. 폴더 frontend에서 npm i axios (axios설치하기 )
